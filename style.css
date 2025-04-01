@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f1f8f5;
+    }
+    .header {
+        background-color: #00704A;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 40px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            }
+            .menu-item {
+                background-color: white;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                transition: transform 0.3s ease-in-out;
+                }
+                
+                .menu-item:hover {
+                transform: scale(1.05);
+                }
